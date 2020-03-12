@@ -1,0 +1,6 @@
+.two-columns__paragraph {                                                     /*Параграфы*/
+    align-self: baseline;
+    font-weight: normal;
+    align-self: center;
+    margin-bottom: 30px;
+}

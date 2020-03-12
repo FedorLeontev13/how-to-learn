@@ -1,0 +1,11 @@
+.header__square-pic {                                                  /*Квадрат в заголовке*/
+    height: 568px;
+    width: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background-color: #2F80ED;
+    z-index: 0;
+    overflow: hidden;
+    animation: rotation_square 20s ease-in infinite;
+}

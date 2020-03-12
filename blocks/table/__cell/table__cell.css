@@ -1,0 +1,10 @@
+@import url("_theme/table__cell_theme_dark.css");
+
+.table__cell {                                                  /*Ячейки*/
+    width: 250px;
+    margin-top: 60px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}

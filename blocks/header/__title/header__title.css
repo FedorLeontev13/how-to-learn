@@ -1,0 +1,9 @@
+.header__title {                                             /*Заголовок в заголовке*/
+    position: relative;
+    left: 64px;
+    font-weight: bold;
+    width: 730px;
+    line-height: 96px;
+    font-size: 102px;
+
+}

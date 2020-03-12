@@ -1,0 +1,9 @@
+.header__link {                                                /*Ссылка в подзаголовке*/
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+.header__link:hover {
+    opacity: .5;
+    transition: opacity 5s ease-in;
+}
