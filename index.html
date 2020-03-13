@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <title>Научиться учиться</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./blocks/page/page.css">
-  
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
     <div class="page">
@@ -43,27 +41,27 @@
 
             <div class="cards">
               <div class="cards__item">
-                <img src="images_sprint-2/attention.png" alt="attention" class="cards__image">
+                <img src="images/attention.png" alt="Внимание" class="cards__image">
                 <h4 class="cards__title">Два вида внимания</h4>
                 <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
               </div>
               <div class="cards__item">
-                <img src="images_sprint-2/recall.png" alt="recall" class="cards__image">
+                <img src="images/recall.png" alt="Отзыв" class="cards__image">
                 <h4 class="cards__title">Recall</h4>
                 <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
               </div>
               <div class="cards__item">
-                <img src="images_sprint-2/interliving.png" alt="interliving" class="cards__image">
+                <img src="images/interliving.png" alt="Интерливинг" class="cards__image">
                 <h4 class="cards__title">Интерливинг</h4>
                 <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
               </div>
               <div class="cards__item">
-                <img src="images_sprint-2/question.png" alt="question" class="cards__image">
+                <img src="images/question.png" alt="Вопрос" class="cards__image">
                 <h4 class="cards__title">Вопросы</h4>
                 <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
               </div>
               <div class="cards__item">
-                <img src="images_sprint-2/competence.png" alt="competence" class="cards__image">
+                <img src="images/competence.png" alt="Конпетенция" class="cards__image">
                 <h4 class="cards__title">Иллюзия компетентности</h4>
                 <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
               </div>
@@ -74,12 +72,8 @@
             <h3 class="section-title">Видео нa TED</h3>
             <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
             <div class="video__iframes">
-              <div class="video__iframe">
-                <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="video__iframe">
-                <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+                <iframe src="https://www.youtube.com/embed/arj7oStGLkU"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe"></iframe>
+                <iframe src="https://www.youtube.com/embed/5MgBikgcWnY"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe"></iframe>
             </div>
           </section>
 
@@ -144,13 +138,13 @@
               <div class="khan__container">
                 <p class="khan__author">Салман Хан</p>
                 <h3 class="khan__title">Весь мир — школа</h3>
-                <p class="khan__quote">
+                <blockquote class="khan__quote">
                   Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
-                </p>
+                </blockquote>
                 <p class="khan__quote-author">Джордж Лукас</p>
                 <p class="khan__subline">Кинорежиссер, продюсер</p>
                 <div class="khan__book-container">
-                  <img src="./images_sprint-2/book.jpg" alt="book" class="khan__book-pic">
+                  <img src="images/book.jpg" alt="Книга" class="khan__book-pic">
                   <a href="#" rel="buy book" class="khan__buy-link">Купить книгу&rarr;</a>  
                 </div>
               </div>
@@ -218,12 +212,12 @@
             <section class="resources">
               <h3 class="section-title">Полезные ресурсы</h3>
               <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-              <div class="resources__logo-zone">
-                <a href="#"><img src="./images_sprint-2/logo/arzamas.svg" alt="arzamas" class="resources__logo"></a>
-                <a href="#"></a><img src="./images_sprint-2/logo/n1.svg" alt="n+1" class="resources__logo"></a>
-                <a href="#"></a><img src="./images_sprint-2/logo/strelka.svg" alt="strelka" class="resources__logo"></a>
-                <a href="#"></a><img src="./images_sprint-2/logo/polka.svg" alt="polka" class="resources__logo"></a>
-              </div>
+              <ul class="resources__logo-zone">
+                <li class="resource__list-item"><a href="#"><img src="images/logo/arzamas.svg" alt="arzamas" class="resources__logo"></a></li>
+                <li class="resource__list-item"><a href="#"><img src="images/logo/n1.svg" alt="n+1" class="resources__logo"></a></li>
+                <li class="resource__list-item"><a href="#"><img src="images/logo/strelka.svg" alt="strelka" class="resources__logo"></a></li>
+                <li class="resource__list-item"><a href="#"><img src="images/logo/polka.svg" alt="polka" class="resources__logo"></a></li>
+              </ul>
             </section>
         </main>
 
@@ -236,18 +230,18 @@
             <nav class="footer__column footer__column_content_info">
               <h5 class="footer__column-heading">О Практикуме</h5>
                 <ul class="footer__column-links">
-                  <li><a href="#" class="footer__column-link">Главная</a></li>
-                  <li><a href="#" class="footer__column-link">Концепция</a></li>
-                  <li><a href="#" class="footer__column-link">Наставники</a><li>
+                  <li class="footer__list-item"><a href="#" class="footer__column-link">Главная</a></li>
+                  <li class="footer__list-item"><a href="#" class="footer__column-link">Концепция</a></li>
+                  <li class="footer__list-item"><a href="#" class="footer__column-link">Наставники</a></li>
                 </ul>
             </nav>
 
             <nav class="footer__column footer__column_content_social">
               <h5 class="footer__column-heading">Соцсети</h5>
               <ul class="footer__social-icons">
-                <li><a href="https://www.facebook.com/zuck" class="footer__column-link"><img src="./images/facebook_white.svg" alt="facebook" class="footer__social-icon">Facebook</a></li>
-                <li><a href="https://vk.com/quanticpunk" class="footer__column-link"><img src="./images/vk_white.svg" alt="VK" class="footer__social-icon">ВКонтакте</a></li>
-                <li><a href="https://www.instagram.com/siberian_knyaz/" class="footer__column-link"><img src="./images/instagram_white.svg" alt="Instagram" class="footer__social-icon">Instagram</a></li>
+                <li class="footer__list-item"><a href="https://www.facebook.com/zuck" class="footer__column-link"><img src="./images/facebook_white.svg" alt="facebook" class="footer__social-icon">Facebook</a></li>
+                <li class="footer__list-item"><a href="https://vk.com/quanticpunk" class="footer__column-link"><img src="./images/vk_white.svg" alt="VK" class="footer__social-icon">ВКонтакте</a></li>
+                <li class="footer__list-item"><a href="https://www.instagram.com/siberian_knyaz/" class="footer__column-link"><img src="./images/instagram_white.svg" alt="Instagram" class="footer__social-icon">Instagram</a></li>
               </ul>
             </nav>
 

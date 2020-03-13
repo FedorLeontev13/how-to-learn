@@ -5,6 +5,8 @@
 @import url("__social-icon/footer__social-icon.css");
 @import url("__social-icons/footer__social-icons.css");
 @import url("__columns/footer__columns.css");
+@import url("__column/footer__column.css");
+@import url("__list-item/footer__list-item.css");
 
 
 
@@ -18,6 +20,3 @@
     box-sizing: border-box; 
 }
 
-li{
-    list-style-type: none;
-}
