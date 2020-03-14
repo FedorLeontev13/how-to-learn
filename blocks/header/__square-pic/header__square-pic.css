@@ -7,5 +7,5 @@
     background-color: #2F80ED;
     z-index: 0;
     overflow: hidden;
-    animation: rotation_square 20s ease-in infinite;
+    animation: rotation_square 20s infinite linear;
 }
